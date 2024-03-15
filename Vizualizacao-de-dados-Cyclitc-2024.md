@@ -732,13 +732,13 @@ existam dados adicionais de latitude e longitude, reconhece-se que eles
 não são necessários para a análise específica realizada.
 
 Os dados são atuais, desde que as viagens de bicicleta dos últimos doze
-meses foram coletadas e analisadas, de julho de 2022 a junho de 2023.
-Isso garante que a análise reflita a situa??o atual e recente dos
+meses foram coletadas e analisadas, de janeiro de 2023 a janeiro de 2024.
+Isso garante que a análise reflita a situação atual e recente dos
 padrões de uso de bicicletas.
 
-Processo Para começar a limpar os dados? necessário verificar os nomes
-das colunas e os formatos usados. Isso me permitir? mesclar as
-informa??es em um único dataframe e, assim, facilitar tanto o processo
+Processo Para começar a limpar os dados é necessário verificar os nomes
+das colunas e os formatos usados. Isso me permitirá mesclar as
+informações em um único dataframe e, assim, facilitar tanto o processo
 de limpeza quanto a análise.
 
 Verificando as colunas
@@ -930,7 +930,7 @@ são notavelmente altos, o que pode ser devido a casos atípicos ou
 eventos excepcionais. Da mesma forma, deve-se considerar a possibilidade
 de valores mínimos causados por situações acidentais.
 
-? importante realizar uma análise de valores atípicos para avaliar a
+É importante realizar uma análise de valores atípicos para avaliar a
 influência desses casos extremos nas conclusões. Da mesma forma, pode-se
 ver que menos de 50% dos ciclistas casuais tem tempos de uso de pelo
 menos 11 minutos, enquanto no caso dos membros, 50% Tem um tempo de uso
@@ -969,7 +969,7 @@ bike\_share\_data
 \#ordenando
 bike\_share\_data$day_of_week <- factor(bike_share_data$day\_of\_week,
 levels = c(“domingo”, “segunda”, “ter?a”,
-“quarta”,“quinta”,“sexta”,“s?bado”))’’’ O que eu fiz foi substituir esta
+“quarta”,“quinta”,“sexta”,“sábado”))’’’ O que eu fiz foi substituir esta
 parte pelo código abaixo que após aparece os dias da semana
 corretamente’’’
 
