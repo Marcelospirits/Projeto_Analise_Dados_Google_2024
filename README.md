@@ -59,9 +59,11 @@ Você criará um relatório com as entregas a seguir:
 5.	Como justificar visualizações e descobertas-chave
 6.	Suas três principais recomendações com base em sua análise
 
-Preparar Selecionado dados historicos dos ultimos 12 meses (janeiro de 2023 a janeiro de 2024), os dados foram fornecidos por Motivar International Inc, sendo dados publicos. Os dados pessoais dos usuarios sâo anonimizado.
+
 
 ## Preparar
+
+ Selecionando dados historicos dos ultimos 12 meses (janeiro de 2023 a janeiro de 2024), os dados foram fornecidos por Motivar International Inc, sendo dados publicos. Os dados pessoais dos usuarios sâo anonimizado.
 
 Obs(caso você esteja tendo problemas na hora de executar o
 Knit, erro UTF-8 caracteres especiais ) Verifique o arquivo de entrada:
@@ -75,6 +77,7 @@ stringAsFactors = FALSE: Ao ler dados em R, certifique-se de usar
 stringAsFactors = FALSE para evitar a conversão automática de strings em
 fatores, o que pode causar problemas de codificação.
 
+*Iniciando Codigo em R*  
 ``` r
 library(tidyverse) #helps dados de wrangle
 ```
@@ -85,16 +88,13 @@ library(ggplot2) #helps visualizar dados
 ```
 
 ``` r
+#Local onde estão guardados os dados para analise arquivos .csv
 setwd("F:\\vizualixacao dados Cyclistic 2024")
 ```
 
 \#usei F:\\ no chamado do local onde estão os dados porque ele da erro
 usando só , o sistema acha que é um caracter especial.
 
-Preparar Selecionado dados historicos dos ultimos 12 meses (janeiro de
-2023 a janeiro de 2024), os dados foram fornecidos por Motivar
-International Inc, sendo dados publicos. Os dados pessoais dos usuarios
-sâo anonimizado.
 
 ``` r
 #Importando dados  
