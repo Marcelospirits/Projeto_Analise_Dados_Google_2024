@@ -40,7 +40,9 @@
 
   A Lily estabeleceu um objetivo claro: criar estratégias de marketing destinadas a converter passageiros casuais em membros anuais. Para fazer isso, no entanto, a equipe de analistas de marketing precisa entender melhor como os membros anuais e os passageiros casuais diferem, por que os passageiros casuais iriam querer adquirir um plano e como a mídia digital poderia afetar suas táticas de marketing. A Lily e sua equipe estão interessados em analisar os dados históricos de trajetos de bicicleta da Cyclistic para identificar tendências.
 
-## 3 Perguntar
+##Perguntar
+
+# 3 Perguntar
 Três perguntas nortearão o futuro programa de marketing:
 1.	Como os membros anuais e os ciclistas casuais usam as bicicletas da Cyclistic de forma diferente?
 2.	Por que os passageiros casuais iriam querer adquirir planos anuais da Cyclistic?
