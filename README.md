@@ -510,26 +510,14 @@ compartilhadas por clientes e membros casuais. Pode-se ver que:
 
 *Os dias com o maior numero de viagens casuais de clientes são Sábados e
 Domingos, enquanto os clientes membros fazem mais viagens ás Terça,
-Quartas e Quintas-feiras. Essa diferença nos dias de pico sugere que os
-clientes casuais tendem a usar bicicletas compartilhadas com mais
+Quartas e Quintas-feiras. 
+*Essa diferença nos dias de pico sugere que os clientes casuais tendem a usar bicicletas compartilhadas com mais
 frequência em fins de semana não funcionais, possivelmente para
 atividades recreativas ou turísticas, enquanto os clientes membros os
 usam mais para o deslocamento durante a semana.
+*Preferência por Tipos de Bicicletas:*O gráfico não especifica diretamente os tipos de bicicletas, mas podemos inferir algumas coisas: Clientes Casuais: Como eles fazem mais viagens nos fins de semana, é possível que a preferência por bicicletas elétricas esteja refletida no aumento do uso nesses dias. Clientes membros: Embora não haja uma indicação clara no gráfico, a ausência de uso de bicicletas de estação sugere que eles preferem a conveniência de estacionar perto de seus destinos, o que é possível com bicicletas clássicas e elétricas.
 
-*Clientes casuais mostram uma preferência por bicicletas elétricas em
-comparação com bicicletas de estação e bicicletas clássicas. Por outro
-lado, os clientes membros usam bicicletas clássicas e elétricas, mas não
-usam bicicletas de estação. Essa diferença de preferencias pode estar
-relacionada á maior flexibilidade que as bicicletas elétricas oferecem
-para percorrer distancias maiores e facilitar a viagem em terrenos
-difíceis.
 
-*A observação do uso de bicicletas de estação pode indicar que os
-clientes membros preferem a conveniência de estacionar perto de seu
-destino, o que é possível com bicicletas clássicas e elétricas que podem
-ser deixadas em locais permitidos. Em vez disso, as bicicletas de
-estação exigiriam retornar a uma estação específica, o que pode ser
-menos conveniente para alguns usuários.
 
 **Visualizando o numero de viagens por dia e Tipo de usuário**
 
@@ -552,7 +540,7 @@ bicicletas compartilhadas principalmente para lazer ou recreação durante
 as horas da tarde e da noite.
 
 Por outro lado, os clientes membros fazem a maioria de suas viagens?
-tarde, seguidas de manhã? e noite. Essa diferença nos padrões de uso
+tarde, seguidas de manhã e noite. Essa diferença nos padrões de uso
 entre clientes casuais e membros pode ser devido ao fato de que os
 clientes membros usam bicicletas compartilhadas com mais frequência para
 deslocamento e atividades diárias durante o horário de pico atividade de
@@ -573,9 +561,11 @@ membros seja de 64,5% e a porcentagem de viajantes casuais seja de
 34,5%, a%, os usuários casuais têm durações de viagem muito mais longas
 em comparação com os ciclistas membros.
 
-*Ciclistas casuais:*
+Duração das Viagens:
 
-*Dados atípicos são identificados entre ciclistas casuais com uma duração
+Ciclistas casuais:
+
+Existem alguns outliers notáveis entre os clientes casuais, com uma duração
 de viagem de aproximadamente 28 dias (2500000 segundos). Essa duração
 extremamente longa pode ser o resultado de um erro de registro ou de uma
 jornada excepcionalmente longa, e é necessária uma investigação mais
@@ -599,7 +589,7 @@ usuários casuais fazem viagens mais curtas e rápidas, o que apoia a
 ideia de que eles usam bicicletas compartilhadas para atividades de
 lazer e deslocamento dentro da cidade.
 
-*Ciclistas membros:*
+Ciclistas membros:
 
 * Em contraste, a duração da viagem para os ciclistas membros á mais
 curta, com um limite inferior de 3 dias (250.000 segundos). Isso indica
@@ -607,11 +597,15 @@ que os membros usam bicicletas compartilhadas principalmente para
 viagens mais curtas e pontuais, como deslocamento para o trabalho ou
 atividades diárias.
 
+Comportamento dos Usuários
+
 * Destaca-se que a duração da viagem para os ciclistas membros está
 concentrada principalmente em um único dia. Isso apoia a ideia de que os
 membros usam bicicletas compartilhadas para deslocamentos diários e se
 beneficiam da conveniência e eficiência do serviço para seus
 deslocamentos.
+
+Em resumo, o gráfico revela diferenças interessantes nos padrões de uso entre clientes casuais e membros, com implicações importantes para estratégias de marketing e otimização do serviço de compartilhamento de bicicletas.
 
 * Visualização do tempo médio de uso por dia por tipo de usuário:
 
@@ -632,23 +626,23 @@ médio de uso mais longo aos domingos, sábados, segundas e sextas-feiras.
 Por outro lado, os ciclistas membros tem um tempo médio de uso mais
 longo aos sábados, domingos e sextas-feiras.
 
-Essa análise nos permite inferir que ciclistas casuais tendem a usar
-bicicletas compartilhadas nos finais de semana e no início da semana de
-trabalho para fazer viagens mais longas e mais longas.
+Padrões Observados:
 
-Para os ciclistas membros, uma tendência semelhante também à observada
-nos finais de semana e nos dias de trabalho anteriores ao fim de semana.
-Os membros também podem usar bicicletas compartilhadas para lazer ou
-recreação durante os dias de descanso.
+Clientes casuais: Tendem a ter tempos de uso mais variáveis, com alguns usando as bicicletas por períodos curtos e outros por períodos mais longos.
+
+Clientes membros: Geralmente têm tempos de uso mais consistentes, com menos variação.
+
+Em resumo, o gráfico mostra como o tempo de uso varia entre os tipos de usuários. Os clientes casuais têm maior variabilidade, enquanto os membros têm tempos de uso mais estáveis. Essas informações podem ajudar a equipe de marketing a adaptar estratégias para cada grupo de usuários. 😊🚲
 
 ## Ação
 
 ## Principais descobertas
-* Distribuição de Usuários:* Durante o período analisado, aproximadamente
-39% dos usuários são ciclistas casuais (usuários ocasionais) e 61% são
-associados anuais. Isso indica que a maioria dos usuários são membros
-recorrentes, representando uma oportunidade para o Cyclistic aumentar a
-base anual de membros.
+
+ *Distribuição de Usuários:* Durante o período analisado:
+
+*Usuários Membros:* Representam quase 60% do total. Esses são os ciclistas que adquiriram planos anuais da Cyclistic. Eles utilizam as bicicletas de forma regular e recorrente.
+
+*Usuários Casuais:* Correspondem aos 40% restantes. Esses são os passageiros casuais que optam por passes de viagem única ou diários. Eles não têm um compromisso de longo prazo com o serviço e podem usar as bicicletas de forma esporádica.
 
 *Duração Média da Viagem:* Os ciclistas casuais tendem a fazer viagens
 mais longas, em média, com uma duração média de aproximadamente 28
@@ -661,7 +655,7 @@ possivelmente como parte de sua rotina diária.
 
 *Distribuição Semanal de Uso:* Ciclistas casuais tendem a usar o serviço
 mais nos fins de semana (Sábado e Domingo), com um pico de uso aos
-sábados. Por outro lado, os associados anuais utilizam mais o serviço
+sábados. Por outro lado, os associados(membros) anuais utilizam mais o serviço
 durante os dias úteis (Segunda a Sexta-feira), com um aumento no uso às
 Quintas-feiras. Esta diferença na distribuição de uso semanal pode estar
 relacionada com as diferentes finalidades de uso dos dois grupos de
@@ -669,32 +663,21 @@ usuários: Ciclistas casuais usam mais para atividades de lazer nos fins
 de semana, enquanto os membros usam mais para o deslocamento diário
 durante os dias úteis.
 
-*Distribuição Diária de Uso:* Ciclistas casuais mostram um padrão de uso
-mais uniforme durante o dia, com um ligeiro aumento no uso durante a
+*Distribuição DIaria de Uso:*  Ciclistas casuais mostram um padrão de uso
+mais baixo durante o dia, com um grande aumento no uso durante a
 tarde e á noite. Por outro lado, os membros anuais têm um uso mais
 pronunciado durante as horas de pico da manhã e da tarde, com uma
-diminuição no uso á noite. Isso sugere que os membros usam bicicletas
+ligeira diminuição no uso á noite. Isso sugere que os membros usam bicicletas
 compartilhadas para seus deslocamentos diários, enquanto os ciclistas
-casuais as usam mais dispersas ao longo do dia, possivelmente para
+casuais as usam mais  para passeios esporádicos , possivelmente para
 atividades recreativas.
 
-*Uso por Time Strip:* Analisando o tempo médio de uso por intervalo de
-tempo, observa-se que ciclistas casuais e membros anuais usam mais
-bicicletas compartilhadas durante o início da manhã e da tarde. Os
-ciclistas casuais tem um tempo médio de uso mais longo no início da
-manhã, seguido pela tarde e noite. Por outro lado, os membros têm um
-tempo mdeio de uso mais longo á noite, seguido de manhã. Isso pode indicar
-que ciclistas casuais tendem a usar bicicletas principalmente durante as
-primeiras horas do dia e durante a tarde e a noite, possivelmente para
-atividades de lazer ou viagens mais longas. Enquanto os membros fazem
-mais uso de bicicletas compartilhadas á noite e no início do dia,
-possivelmente para viagens diárias e atividades dirias.
 
 *Preferência de Ciclo:* Ciclistas ocasionais mostram uma clara preferência
 por bicicletas elétricas, seguidas por bicicletas clássicas, enquanto
 mostram menor uso de bicicletas de estação. Por outro lado, os ciclistas
 membros mostram uma preferência diversificada, usando bicicletas
-elétricas e clássicas.
+elétricas e clássicas, e desconsiderando bicicletas de estação. o que indica que eles preferem bicicletas que podem deixar em lugares diferentes,  mais proximos do seu destino final, trazendo mais conforto  e comodidade para eles.
 
 ## Recomendações 
 * *Promoções Especiais para Ciclistas Ocasionais:* A Cyclistic
